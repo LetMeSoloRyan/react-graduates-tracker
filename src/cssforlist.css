@@ -1,0 +1,30 @@
+.listbackground {
+  padding: 20px;
+}
+​
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+​
+.MuiDataGrid-root {
+  border: 1px solid #ccc;
+}
+​
+.MuiDataGrid-root .MuiDataGrid-cell {
+  padding: 8px;
+  border: 1px solid #ccc;
+}
+​
+.MuiDataGrid-root .MuiDataGrid-colCellTitle {
+  font-weight: bold;
+}
+
+.MuiDataGrid-root .MuiDataGrid-colCell:not(.MuiDataGrid-colCellTitle) {
+  background-color: #ccc;
+}
+
+.MuiDataGrid-root .MuiDataGrid-row:hover{
+  background-color: #ebebeb;
+}
+
